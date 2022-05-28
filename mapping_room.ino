@@ -42,7 +42,7 @@ void loop()
 //https://www.arduino.cc/reference/en/language/variables/utilities/sizeof/
 //sizeof() on a array will give of the total number of bytes it has and sizeof() on a 
 //individual element of that array will give of the number of bytes for index.
-/therefore total-bytes/bytes-per= total number of indexes
+//therefore total-bytes/bytes-per = total number of indexes
 void storeData()
   {
     for(int i = 0, j = botAddr; i < sizeof(roomTallyBottom) / sizeof(roomTallyBottom[0]) ; i++, j++)
